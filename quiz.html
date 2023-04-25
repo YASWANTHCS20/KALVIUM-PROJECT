@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A BASIC QUIZ PAGE</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="quiz">
+		<center><marquee><h1>This is Basic quiz webpage</h1></marquee></center>
+		<center><h1>MCQ Quiz</h1></center>
+		<center><h3>Select the correct options and click submit to check whether option is correct or not and click next to go to next question</h3></center>
+		<hr>
+		<h3 id="question"></h3>
+		<ul id="choices"></ul>
+		<button id="submit" onclick="checkAnswer()">Submit</button>
+		<button id="next" onclick="nextQuestion()">Next</button>
+		<p id="result"></p>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
